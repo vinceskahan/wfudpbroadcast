@@ -94,7 +94,7 @@ config_dict = configobj.ConfigObj(StringIO(extension_config))
 #----------------------------------
 #        files stanza
 #----------------------------------
-files=[('bin/user', ['bin/user/broadcastWeatherUDP.py'])]
+files=[('bin/user', ['bin/user/broadcastWeatherFlowUDP.py'])]
 files_dict = files
 
 #---------------------------------
