@@ -40,7 +40,8 @@ setting, following the instructions for your weewx version and installation meth
 
    The CheckWX key (top of file) and setting rest_api=1 (bottom of file) is needed
    for forecasts to work.  Ensure Connection=UDP (bottom of file) so the wfpiconsole
-   listens for the UDP broadcasts from the weewx system using this extension.
+   listens for the UDP broadcasts from the weewx system using this extension.  At this
+   time you need a WeatherFlow API key (sorry) for the forecast to actually work.
 
    Simplest way to proceed is to install the wfpiconsole and copy this example .ini
    into place as /home/pi/wfpiconsole/wfpiconsole.ini and edit lightly as indicated
