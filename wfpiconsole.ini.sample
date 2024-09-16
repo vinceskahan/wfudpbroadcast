@@ -1,0 +1,81 @@
+[Keys]
+WeatherFlow = optional-weatherflow-api-key-here
+CheckWX = required-checkwx-api-key-for-forecast-here
+
+[Station]
+StationID = 15421
+TempestID = 54252
+TempestSN = ST-00006021
+SkyID =
+SkySN =
+OutAirID =
+OutAirSN =
+InAirID =
+InAirSN =
+TempestHeight = 1.2192001506805
+SkyHeight =
+OutAirHeight =
+Latitude = 47.12345
+Longitude = -122.12345
+Elevation = 108.3509674072266
+Timezone = America/Los_Angeles
+Name = MyStationNameHere
+
+[Units]
+Temp = f
+Pressure = mb
+Wind = mph
+Direction = cardinal
+Precip = in
+Distance = mi
+Other = imperial
+
+[Display]
+TimeFormat = 24 hr
+DateFormat = Mon, 01 Jan 0000
+UpdateNotification = 1
+PanelCount = 6
+LightningPanel = 1
+lightning_timeout = 0
+IndoorTemp =
+Cursor = 1
+Border = 1
+Fullscreen = 1
+Width = 800
+Height = 480
+
+[FeelsLike]
+ExtremelyCold = 23
+FreezingCold = 32
+VeryCold = 41
+Cold = 50
+Mild = 59
+Warm = 68
+Hot = 77
+VeryHot = 86
+
+[PrimaryPanels]
+PanelOne = Forecast
+PanelTwo = Temperature
+PanelThree = WindSpeed
+PanelFour = SunriseSunset
+PanelFive = Rainfall
+PanelSix = Barometer
+
+[SecondaryPanels]
+PanelOne = Sager
+PanelTwo =
+PanelThree =
+PanelFour = MoonPhase
+PanelFive =
+PanelSix = Lightning
+
+[System]
+Connection = UDP
+rest_api = 1
+stats_endpoint = 0
+SagerInterval = 6
+Timeout = 20
+Hardware = Pi4
+Version = v24.6.2
+
