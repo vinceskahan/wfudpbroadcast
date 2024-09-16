@@ -19,7 +19,7 @@ NAME            = 'broadcastWeatherFlowUDP'
 DESCRIPTION     = 'broadcast UDP compliant with WeatherFlow UDP API'
 AUTHOR          = "Vince Skahan"
 AUTHOR_EMAIL    = "vinceskahan@gmail.com"
-REPORT_SERVICES = 'user.BroadcastWeatherFlowUDP.broadcastWeatherFlowUDP'
+REPORT_SERVICES = 'user.broadcastWeatherFlowUDP.BroadcastWeatherFlowUDP'
 
 #-------- main loader -----------
 
